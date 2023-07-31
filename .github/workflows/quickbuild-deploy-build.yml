@@ -108,7 +108,7 @@ jobs:
       - name: 'Authenticate Dev Hub'
         run: |
           echo "${{ secrets.DEVHUB_SFDX_AUTH_URL }}" > ./authfile
-         sf org login sfdx-url  -f authfile -a devhub
+          sf org login sfdx-url  -f authfile -a devhub
 
       - name: 'Create packages'
         id: sfpowerscripts-build

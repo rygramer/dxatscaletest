@@ -43,13 +43,8 @@
         {
             "path": "./src-access-management",
             "package": "src-access-management",
-            "versionNumber": "1.0.0.0",
-            "ignoreOnStage": [
-                "prepare",
-                "validate",
-                "quickbuild",
-                "build"
-            ]
+            "versionName": "Version 1.0.0",
+            "versionNumber": "1.0.0.0"
         },
         {
             "path": "./src-env-specific-alias-post",

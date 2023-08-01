@@ -13,9 +13,9 @@ name: 'Publish Metrics for Scratch Org Pools'
 
 on:
   workflow_dispatch:
-  schedule:
+  #schedule:
     # Every 30 minutes
-    - cron: '30 * * * *'
+    #- cron: '30 * * * *'
 
 #Set the environment variables for tracking metrics
 #env:

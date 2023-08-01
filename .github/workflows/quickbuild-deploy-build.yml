@@ -91,7 +91,7 @@ jobs:
       - name: 'Deploy to DEV'
         run: |
           sfp dependency:install -u dev -v devhub
-          sfdx sfpowerscripts:orchestrator:deploy -u dev  --skipifalreadyinstalled -g "::group::,::endgroup::" 
+          sfp orchestrator:deploy -u dev  --skipifalreadyinstalled -g "::group::,::endgroup::" 
 
   buildAndPublish:
     name: 'Build and Publish'

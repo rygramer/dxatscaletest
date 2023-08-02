@@ -34,7 +34,6 @@ jobs:
   PROD:
     runs-on: ubuntu-latest
     container: ghcr.io/dxatscale/sfpowerscripts
-    if: contains(github.ref,'refs/heads/release')
     environment:
       name: PROD
 

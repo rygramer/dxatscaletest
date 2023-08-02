@@ -1,74 +1,85 @@
 {
-    "packageDirectories": [
-        {
-            "path": "./src-env-specific-pre",
-            "package": "src-env-specific-pre",
-            "versionNumber": "1.0.0.0",
-            "ignoreOnStage": [
-                "prepare",
-                "validate",
-                "quickbuild",
-                "build"
-            ]
-        },
-        {
-            "path": "./src-env-specific-alias-pre",
-            "package": "src-env-specific-alias-pre",
-            "versionNumber": "1.0.0.0",
-            "aliasfy": true,
-            "ignoreOnStage": [
-                "prepare",
-                "validate",
-                "quickbuild",
-                "build"
-            ]
-        },
-        {
-            "path": "./src/core-crm",
-            "package": "core",
-            "versionName": "Version 1.0.0",
-            "versionNumber": "1.0.0.0"
-        },
-        {
-            "path": "./src-ui",
-            "package": "src-ui",
-            "versionNumber": "1.1.0.0",
-            "ignoreOnStage": [
-                "prepare",
-                "validate",
-                "quickbuild",
-                "build"
-            ]
-        },
-        {
-            "path": "./src-access-management",
-            "package": "src-access-management",
-            "versionName": "Version 1.0.0",
-            "versionNumber": "1.0.0.0"
-        },
-        {
-            "path": "./src-env-specific-alias-post",
-            "package": "src-env-specific-alias-post",
-            "versionNumber": "1.0.0.0",
-            "aliasfy": true,
-            "alwaysDeploy": true,
-            "ignoreOnStage": [
-                "prepare",
-                "validate",
-                "quickbuild",
-                "build"
-            ]
-        },
-        {
-            "path": "./src-temp",
-            "default": true
-        }
-    ],
-    "namespace": "",
-    "sfdcLoginUrl": "https://login.salesforce.com",
-    "sourceApiVersion": "52.0",
-    "packageAliases": {
+  "packageDirectories": [
+    {
+      "path": "./src-env-specific-pre",
+      "package": "src-env-specific-pre",
+      "versionNumber": "1.0.0.0",
+      "ignoreOnStage": [
+        "prepare",
+        "validate",
+        "quickbuild",
+        "build"
+      ]
     },
-    "plugins": {
+    {
+      "path": "./src-env-specific-alias-pre",
+      "package": "src-env-specific-alias-pre",
+      "versionNumber": "1.0.0.0",
+      "aliasfy": true,
+      "ignoreOnStage": [
+        "prepare",
+        "validate",
+        "quickbuild",
+        "build"
+      ]
+    },
+    {
+      "path": "src/core-crm",
+      "package": "core",
+      "versionName": "ver 0.1",
+      "versionNumber": "0.1.0.NEXT",
+      "default": false,
+      "versionDescription": ""
+    },
+    {
+      "path": "./src-ui",
+      "package": "src-ui",
+      "versionNumber": "1.1.0.0",
+      "ignoreOnStage": [
+        "prepare",
+        "validate",
+        "quickbuild",
+        "build"
+      ]
+    },
+    {
+      "path": "src-access-management",
+      "package": "src-access-management",
+      "versionName": "ver 0.1",
+      "versionNumber": "0.1.0.NEXT",
+      "default": false,
+      "versionDescription": "",
+      "dependencies": [
+        {
+            "package": "core",
+            "versionNumber": "0.1.0.NEXT"
+        }
+      ]
+    },
+    {
+      "path": "./src-env-specific-alias-post",
+      "package": "src-env-specific-alias-post",
+      "versionNumber": "1.0.0.0",
+      "aliasfy": true,
+      "alwaysDeploy": true,
+      "ignoreOnStage": [
+        "prepare",
+        "validate",
+        "quickbuild",
+        "build"
+      ]
+    },
+    {
+      "path": "./src-temp",
+      "default": true
     }
+  ],
+  "namespace": "",
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "52.0",
+  "packageAliases": {
+    "core": "0Ho8b000000CaasCAC",
+    "src-access-management": "0Ho8b000000CaaxCAC"
+  },
+  "plugins": {}
 }

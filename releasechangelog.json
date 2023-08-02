@@ -1,0 +1,102 @@
+{
+    "orgs": [
+        {
+            "name": "prod",
+            "releases": [
+                {
+                    "names": [
+                        "Release-1.0"
+                    ],
+                    "buildNumber": 1,
+                    "hashId": "533b902b70220335e374bb3ffcca2663588445a6"
+                }
+            ],
+            "latestRelease": {
+                "names": [
+                    "Release-1.0"
+                ],
+                "buildNumber": 1,
+                "hashId": "533b902b70220335e374bb3ffcca2663588445a6"
+            },
+            "retryCount": 0
+        }
+    ],
+    "releases": [
+        {
+            "names": [
+                "Release-1.0"
+            ],
+            "buildNumber": 1,
+            "workItems": {},
+            "artifacts": [
+                {
+                    "name": "core",
+                    "to": "3fdb45d2",
+                    "version": "1.0.0.5721288499",
+                    "latestCommitId": "3fdb45d2",
+                    "commits": [
+                        {
+                            "commitId": "3fdb45d2",
+                            "date": "2023-07-31T21:01:51-04:00",
+                            "author": "rygramer",
+                            "message": "two packages should be created",
+                            "body": ""
+                        },
+                        {
+                            "commitId": "8a6b5929",
+                            "date": "2023-07-31T20:25:53-04:00",
+                            "author": "rygramer",
+                            "message": "Added a field and permission set",
+                            "body": ""
+                        },
+                        {
+                            "commitId": "5074ab24",
+                            "date": "2023-07-31T19:35:35-04:00",
+                            "author": "rygramer",
+                            "message": "Updating the Account Number Description",
+                            "body": ""
+                        },
+                        {
+                            "commitId": "04697e21",
+                            "date": "2023-07-31T18:19:23-04:00",
+                            "author": "rygramer",
+                            "message": "Initial commit",
+                            "body": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "src-access-management",
+                    "to": "3fdb45d2",
+                    "version": "1.0.0.5721288499",
+                    "latestCommitId": "3fdb45d2",
+                    "commits": [
+                        {
+                            "commitId": "3fdb45d2",
+                            "date": "2023-07-31T21:01:51-04:00",
+                            "author": "rygramer",
+                            "message": "two packages should be created",
+                            "body": ""
+                        },
+                        {
+                            "commitId": "8a6b5929",
+                            "date": "2023-07-31T20:25:53-04:00",
+                            "author": "rygramer",
+                            "message": "Added a field and permission set",
+                            "body": ""
+                        },
+                        {
+                            "commitId": "04697e21",
+                            "date": "2023-07-31T18:19:23-04:00",
+                            "author": "rygramer",
+                            "message": "Initial commit",
+                            "body": ""
+                        }
+                    ]
+                }
+            ],
+            "hashId": "533b902b70220335e374bb3ffcca2663588445a6",
+            "date": "Wed Aug 02 2023 01:55:10 GMT+0000 (Coordinated Universal Time)"
+        }
+    ]
+}

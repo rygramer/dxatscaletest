@@ -1,6 +1,0 @@
-{
-  "dependencies": {
-    "@dxatscale/sfpowerscripts": "^22.6.1",
-    "@salesforce/cli": "^2.2.7"
-  }
-}
